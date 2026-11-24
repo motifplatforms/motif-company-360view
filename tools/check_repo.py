@@ -10,6 +10,8 @@ Checks, all with the standard library:
   recorded value (catches hand edits); names and descriptions are valid.
 - Every script ships a requirements.txt with exact (==) pins.
 - .claude-plugin/plugin.json version matches the latest versions.json entry.
+- chatgpt/: exactly what tools/build_chatgpt.py builds from skills/ (no hand edits, nothing stale),
+  each instruction file within the custom GPT limit, and no note that only applies to Claude.
 - No blocked brand, product, catalog or workbook term anywhere (tools/check_terms.py).
 
 The source bundles are not stored here. The daily reconcile re-runs the converter on the source and
@@ -22,6 +24,7 @@ import json
 import re
 import subprocess
 import sys
+import tempfile
 from pathlib import Path
 
 TOOLS = Path(__file__).resolve().parent
@@ -110,6 +113,26 @@ def main(repo):
                 if line.strip() and "==" not in line:
                     problems.append(f"{name}: unpinned requirement {line.strip()!r}")
 
+    with tempfile.TemporaryDirectory() as tmp:
+        built = subprocess.run([sys.executable, "-I", str(TOOLS / "build_chatgpt.py"), str(repo), "--out", tmp],
+                               capture_output=True, text=True)
+        if built.returncode != 0:
+            problems += ["chatgpt build: " + ln for ln in built.stdout.splitlines() if ln.startswith("PROBLEM")]
+        want_dir, have_dir = Path(tmp) / "chatgpt", repo / "chatgpt"
+        want = {p.relative_to(want_dir).as_posix(): p.read_bytes() for p in want_dir.rglob("*") if p.is_file()}
+        have = ({p.relative_to(have_dir).as_posix(): p.read_bytes() for p in have_dir.rglob("*") if p.is_file()}
+                if have_dir.is_dir() else {})
+        for rel in sorted(set(want) - set(have)):
+            problems.append(f"chatgpt/{rel} is missing (run tools/build_chatgpt.py)")
+        for rel in sorted(set(have) - set(want)):
+            problems.append(f"chatgpt/{rel} is not built from skills/")
+        for rel in sorted(set(want) & set(have)):
+            if want[rel] != have[rel]:
+                problems.append(f"chatgpt/{rel} differs from a fresh build (hand edit or stale?)")
+        for rel, data in sorted(have.items()):
+            if "Claude" in data.decode("utf-8", "replace"):
+                problems.append(f"chatgpt/{rel} mentions Claude")
+
     terms = subprocess.run([sys.executable, "-I", str(TOOLS / "check_terms.py"), str(repo)],
                            capture_output=True, text=True)
     if terms.returncode != 0:
@@ -117,7 +140,7 @@ def main(repo):
 
     for p in problems:
         print("DRIFT", p)
-    print(f"checked {len(listed)} skills against version {latest['plugin_version']}: {'clean' if not problems else str(len(problems)) + ' problem(s)'}")
+    print(f"checked {len(listed)} skills and their ChatGPT versions against version {latest['plugin_version']}: {'clean' if not problems else str(len(problems)) + ' problem(s)'}")
     return 1 if problems else 0
 
 
