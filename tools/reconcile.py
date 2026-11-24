@@ -8,7 +8,8 @@ Usage:
 The bundle itself is never copied into the repository; versions.json keeps its hash.
 
 Without --apply nothing in the repository changes (dry run). With --apply the update is built in a
-temporary copy, checked with tools/check_repo.py, and only then written back.
+temporary copy, the ChatGPT versions are rebuilt (tools/build_chatgpt.py), the copy is checked with
+tools/check_repo.py, and only then written back.
 
 Exit codes (the daily job reads these):
     0   no change: bundle sha256 equals the latest entry in versions.json, and converting it again
@@ -158,6 +159,9 @@ def main():
             entry.append("- Bundle repackaged; no skill content changed.")
         for f in new_cm.get("problems", []):
             entry.append(f"- Flag: {f}")
+        built = run("build_chatgpt.py", stage)
+        if built.returncode != 0:
+            finish("apply_failed", 6, detail=built.stdout.strip().splitlines())
         cl = stage / "CHANGELOG.md"
         head, _, rest = cl.read_text().partition("\n\n")
         cl.write_text(head + "\n\n" + "\n".join(entry) + "\n\n" + rest)
@@ -166,7 +170,7 @@ def main():
         if chk.returncode != 0:
             finish("apply_failed", 6, detail=chk.stdout.strip().splitlines())
 
-        for name in ("skills",):
+        for name in ("skills", "chatgpt"):
             if (repo / name).exists():
                 shutil.rmtree(repo / name)
             shutil.copytree(stage / name, repo / name)
