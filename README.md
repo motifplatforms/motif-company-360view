@@ -83,4 +83,8 @@ tools/test_check_orange.py      self-test for the PDF check
 
 The source bundles themselves are not stored here. A new bundle goes through `python3 -I tools/reconcile.py <bundle.zip>` (dry run), then `--apply`. Each applied update also rebuilds `chatgpt/`. The reconcile refuses a bundle whose skill files don't match the bundle's own manifest, a bundle older than the current one, and any run where `skills/` was edited by hand. When a new version adds or changes a workbook line or an acceptance example, the reconcile stops with exit code 7 until a generic rewrite is added with `tools/add_generic_rule.py`. To change a skill's wording, change it at the source or in the converter, never in `skills/`.
 
+## License
+
+MIT. See [LICENSE](LICENSE).
+
 Maintained by Motif Platforms.
