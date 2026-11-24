@@ -1,0 +1,38 @@
+{
+  "words": {
+    "25f52ad95317875a7c3146edb706542b0ed4e8e813d895b4118044d04520cfde": "project"
+  },
+  "lines": {
+    "00130b350c34d5b53676779e5498958358914d0e40ceb2dc10d86eb841ceb4b2": "A complete parent-portfolio overview alone cannot decide the initial target user or use case when compatible purchase evidence is unavailable.",
+    "1615461fa5e6d2145af7948aacc5e48b116b9e7907ce5ff4dd81c19a80dff2d3": "Decision scorecard → gate questions; evidence log and company register → assertion and exhibit references. For a new company, confirm equivalent workbook and tab names with the planner.",
+    "26d1e50c6b56418fe2778726e558ca1ea1b264a7dd991779df9d45bd3e822a3c": "Channel workbook → shelf observations; sizing model → player and SKU map. For a new company, confirm equivalent workbook and tab names with the planner.",
+    "2740ce7183da9cc9715ed3ebeaffaef65b0f15bd800c8d22a71e5b15c9789445": "A US accepted-claims entry for one product code supports that named US label; it cannot establish a Canadian launch, comparative efficacy or repeat purchase.",
+    "3af3f3d1091513dce47f24beb80b36e5157de1b112ec8fa219f9371483535206": "Company register → coverage; evidence log → evidence and sources. For a new company, confirm equivalent workbook and tab names with the planner.",
+    "3bf930b6f21ccfee38ba48334e7751cc9bee869f880970ce8ef7b10370816003": "Decision scorecard → gate questions, amendments and QA; working-session record → release decision. For a new company, confirm equivalent workbook and tab names with the planner.",
+    "41f6ea381b022747b84e3d4c99cd55ece4d1ca64a165b9c3248c068b2ea2ac9c": "A reviewer saying the end user liked the product supports acceptance; infer repeat only when a purchase or repeat is explicitly reported.",
+    "421cb19026f365d97f813f162464f52ea0de070fcb95978e7f38318cdf79895a": "Working-session record → changes and operating feedback; validation register → regression evidence. For a new company, confirm equivalent workbook and tab names with the planner.",
+    "431b94b21647064fc691f3e8d4878235809b10dc901cd4f1f9c3d3739159ce0a": "A group facility or distribution-point count does not establish throughput at a SKU or in Canada.",
+    "4c32e1e4c50981c62c738f63554fe80a7c73819e1851f7bd36dc17d2040877fa": "Customer evidence log → observations, coded signals, review access and adoption evidence. For a new company, confirm equivalent workbook and tab names with the planner.",
+    "4f9822b3e96c1b311c6a1fbbd4e14e502071a6b7f669275d98b6d6bd73e8d8c7": "An Amazon listing records availability; evidence of incremental demand or channel share requires separate measurement.",
+    "50a267f3c53648e60344b713490b735c3e08761e695c0589055865b177adeaad": "An evaluation framework with stronger marketing but no improvement on a fixed source/pack mismatch remains deferred.",
+    "59ea077cb15f54addfc6654b4f7f8afe90dcf223dacc10d5143c0c25ae2c9300": "Claims register → claims evidence; validation register → validation entries. For a new company, confirm equivalent workbook and tab names with the planner.",
+    "5ff6f5b3217a2bc65550b8ba1c17bf8a5f1694a6f54c594eb88e0c237d046431": "Two brands owned by the same parent require one parent dossier; growth the issuer reports for a different product line stays scoped to that line.",
+    "64cf2e7d5635a387872e2355e8d2165a5dc361b5b93f10d8c6a3e6339d148233": "Validation register → validation entries, scoped calculations and daily resolution log. For a new company, confirm equivalent workbook and tab names with the planner.",
+    "68112ead9fc00693f18a56585f2ca52a9de7b6d3f6867004d26eda92e8ac7977": "A blank sell-through cell remains missing. Reject automatic allocation of a parent's segment growth or category revenue to a single SKU.",
+    "6f823791be5092cb165f45315d9e0c7002ae3c7e6967f02afc7f4e8c0cdb1bd6": "Channel workbook → shelf observations and source ledger. For a new company, confirm equivalent workbook and tab names with the planner.",
+    "703f7c71bed22e9f1e0d711a356671e785db113afbc81fdb1a14f2cafd81e4be": "Evidence log → evidence and sources; channel workbook → shelf observations. For a new company, confirm equivalent workbook and tab names with the planner.",
+    "743ad6b857d8e8c219cf1f0dddc235b13b21782b55d395af2a46a7c70ac97f6c": "Sizing model → evidence inputs, assumptions and scenario tabs; evidence log → sources. For a new company, confirm equivalent workbook and tab names with the planner.",
+    "749d8c9258965c8796fb61e6a277b1691093de1075f439f49f300fd2e40f6a60": "Parent-company work appears once for two sibling brands. A stale workbook revision reopens the affected merge without duplicating completed writes.",
+    "9367272a84ff3f50074704b8b4989b5f33afb830183bfd819aa74278740541f9": "Company register → coverage and resource register; working-session record → active plan. For a new company, confirm equivalent workbook and tab names with the planner.",
+    "b225d08b5999f868fcc91a143cdb4e0b342902254a5489a35f56145be00a903a": "Ownership totals and daily-use percentages cannot supply purchase incidence for a specific product category.",
+    "b6dc9bdbdde07a4de2f25699ae72ff4be293fab51b9fa38fa1d6d3cbfad64b3c": "A retail UPC that a 2023 catalog lists at five packs per case and an April 2025 catalog lists at four keeps both dated values. A US original variant and a Canadian two-flavour variant of the same line remain separate products.",
+    "b9be780fce338c447f81fec060a52a235a20600001fff9723f7e5404b7e2f5a4": "Sizing model → market measurement tabs; evidence log → sizing source intake. For a new company, confirm equivalent workbook and tab names with the planner.",
+    "ca8bfeb9465c68ee8855c87899ae62f4f591e9e4eaf23f4e97114c2f9129099c": "A Canadian reseller policy supports terms, while a dated retailer card supports an offer. Neither reports actual packs purchased.",
+    "e2b172b0725d26b234c07b519c68f1889c7afaea9ec0adf9c85d762d3652d7b4": "When two regional editions of one distributor catalog carry the same file date but list the same UPC and item at four packs per case in one region and five in the other, with different printed section revisions, record distributor region, file version, page and printed section revision independently of the actual effective date. Shipment configurations remain unknown.",
+    "eadcf2afc24f2994cd7236587a627de7a7934e5c5e564fec0960bb16ed78b3e1": "Company register → entities and coverage; evidence log → sources. For a new company, confirm equivalent workbook and tab names with the planner.",
+    "eec7874b9875f16e29c7f10763d14fd59db1445a8804c29877ac38ec38c0d84e": "A dated shelf-price snapshot for a pack with a stated piece count supports a shelf price per piece; retailer margin, producer revenue and manufacturing cost remain unknown.",
+    "f3104c6fcb6a6e35292f0fd5dbd715221acaae2ae59cbc05f8be9ba27c2d1771": "A correct product-identifier exhibit fails an assignment asking how many packs sold. Return targeted rework when an unexamined source exists, otherwise identify the decisive missing measure.",
+    "fa509c5ac72ea1b74b5a52415d96b87de84330e376e57402b313cf4b356e97b6": "Customer workbook → sizing denominators; sizing model → assumptions and annual reconciliation. For a new company, confirm equivalent workbook and tab names with the planner.",
+    "fe45a0c70867beb4b9a6e0113f74be4e2aa511969be6a8fea10d4e69f39b3108": "References to the same third-party market report count as one publication; assigning its table headings numerical sales values fails the challenge."
+  }
+}

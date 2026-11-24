@@ -1,0 +1,27 @@
+[
+  {
+    "plugin_version": "2026.11.23",
+    "source_version": "2026-11-23",
+    "bundle_sha256": "7ec68ea58abf20671df63ec5b784e3f90cfa32014b1c67ffc25754e4f696ac1f",
+    "recorded_utc": "2026-11-23T19:00:00Z",
+    "added": [
+      "company360-entity-portfolio",
+      "company360-product-pack-identity",
+      "company360-retail-offers",
+      "company360-market-sell-through",
+      "company360-household-buying",
+      "company360-customer-routines",
+      "company360-positioning-journey",
+      "company360-claims-substantiation",
+      "company360-operating-capability",
+      "company360-unit-economics",
+      "company360-decision-synthesis",
+      "company360-work-planning",
+      "company360-logic-challenge",
+      "company360-output-evaluation",
+      "company360-weekly-tools-review"
+    ],
+    "removed": [],
+    "changed": []
+  }
+]

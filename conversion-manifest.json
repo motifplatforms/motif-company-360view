@@ -1,0 +1,223 @@
+{
+  "bundle": "Company-360-Skills.zip",
+  "bundle_sha256": "7ec68ea58abf20671df63ec5b784e3f90cfa32014b1c67ffc25754e4f696ac1f",
+  "skills": [
+    {
+      "claude_skill": "company360-entity-portfolio",
+      "source_skill": "motif-entity-portfolio-2026-11-23",
+      "source_version": "2026-11-23",
+      "source_sha256": "336333ec81c669788e413c0dbcded30d17e9809481c4b1f0698cc8081986cb97",
+      "method_sha256": "3016a3afc049c09fa156bba823df00b29b158cd4b59c23b7b14c3ebeea281efa",
+      "converted_sha256": "b30fedcf47bd5924bacbd5d140d17089efcd11e85ad118f13f0d65f38cac97d8",
+      "generic_lines": 2,
+      "files_carried": [],
+      "files_sha256": {},
+      "files_dropped": [
+        "agents/openai.yaml"
+      ]
+    },
+    {
+      "claude_skill": "company360-product-pack-identity",
+      "source_skill": "motif-product-pack-identity-2026-11-23",
+      "source_version": "2026-11-23",
+      "source_sha256": "9dbdd31215db5b37be9f83fbd37c14190d9079cb4e380cb9f650d1c546792ffd",
+      "method_sha256": "60d2a45793e61e656b2c21904d0cd447e289adc4da7bfa12f2af422d7a0e1514",
+      "converted_sha256": "bd5e6013a986c4ca4aee13fa365f7a0c439e91c08bbfe0a4a68e23303b68ab4c",
+      "generic_lines": 3,
+      "files_carried": [],
+      "files_sha256": {},
+      "files_dropped": [
+        "agents/openai.yaml"
+      ]
+    },
+    {
+      "claude_skill": "company360-retail-offers",
+      "source_skill": "motif-retail-offers-2026-11-23",
+      "source_version": "2026-11-23",
+      "source_sha256": "f3669b77ef3e3edf7e478dc4b2845046b065d3438dafe1d4f3d81f2d7fc24265",
+      "method_sha256": "550ade59cfb947c3fbc0b86e0bee944b479061f709773f92de44494ab3344129",
+      "converted_sha256": "c8400ab14150c3986934b9cc9a3636a0862c8216b13af825307ce7a21f4b54a0",
+      "generic_lines": 1,
+      "files_carried": [],
+      "files_sha256": {},
+      "files_dropped": [
+        "agents/openai.yaml"
+      ]
+    },
+    {
+      "claude_skill": "company360-market-sell-through",
+      "source_skill": "motif-market-sell-through-2026-11-23",
+      "source_version": "2026-11-23",
+      "source_sha256": "541347d3e4e77b4dfed58d7d803824875f22a9cac661bd53f74fc27d86eb3a76",
+      "method_sha256": "0d94dc63d57a0c28efded1273b366c81caa1b73fe8c1ff0dd00646e0dbf45929",
+      "converted_sha256": "1b86e2f6cfc9cabe4d33a66c90138b9b5756433e2fbc7908202ea739ed81e21b",
+      "generic_lines": 2,
+      "files_carried": [],
+      "files_sha256": {},
+      "files_dropped": [
+        "agents/openai.yaml"
+      ]
+    },
+    {
+      "claude_skill": "company360-household-buying",
+      "source_skill": "motif-household-buying-2026-11-23",
+      "source_version": "2026-11-23",
+      "source_sha256": "7fcc162b7ad1d0b13c5e66e646f655b08d178a15726042dc01ababcfe13e025d",
+      "method_sha256": "21c6980864e65a30c0cce19ce2b6bbe32e22463bf47d4896dce5cdd3449d2eee",
+      "converted_sha256": "26fbb9a212adde024f44357ae63253b8b37c0a990714a115c666facf76e26bd2",
+      "generic_lines": 2,
+      "files_carried": [],
+      "files_sha256": {},
+      "files_dropped": [
+        "agents/openai.yaml"
+      ]
+    },
+    {
+      "claude_skill": "company360-customer-routines",
+      "source_skill": "motif-customer-routines-2026-11-23",
+      "source_version": "2026-11-23",
+      "source_sha256": "cb5e07bee30d4aa5b2b6f7a6a47103436aff51f927079183923cbbce6d6d736a",
+      "method_sha256": "64e3d2d58698919ecd54e667d82cbc3050b1b2cca14008b77be6808ee32103ba",
+      "converted_sha256": "c32e4d4806913ea95623769500ca16982d655045af4d2d19acb6036639a204ee",
+      "generic_lines": 2,
+      "files_carried": [],
+      "files_sha256": {},
+      "files_dropped": [
+        "agents/openai.yaml"
+      ]
+    },
+    {
+      "claude_skill": "company360-positioning-journey",
+      "source_skill": "motif-positioning-journey-2026-11-23",
+      "source_version": "2026-11-23",
+      "source_sha256": "ae8d12a7390e148128b0c3e0b2639718d450d960a7bf7627cf84a3b125e62e73",
+      "method_sha256": "d5ebe5bd3c3e658a307ce53c6353ae5daa8633db0ccde74a74a85c6a472a25ac",
+      "converted_sha256": "a9708c5ac1c14a6eb4a81655ec3b4386290e3ee3df11635c72a0f6cd62588bc4",
+      "generic_lines": 1,
+      "files_carried": [],
+      "files_sha256": {},
+      "files_dropped": [
+        "agents/openai.yaml"
+      ]
+    },
+    {
+      "claude_skill": "company360-claims-substantiation",
+      "source_skill": "motif-claims-substantiation-2026-11-23",
+      "source_version": "2026-11-23",
+      "source_sha256": "57fd06f0f2762caff365769d6ee23f5b837983442361a11f6d759a6919f5073e",
+      "method_sha256": "003d0b535d576e041db5ef1f8dc52a46e6fad55959f812f8479d6572e7a8ed74",
+      "converted_sha256": "eef0087cd6ec1b49cdc0f06420c68c70bae4474bef741042625af878fc01d2df",
+      "generic_lines": 2,
+      "files_carried": [],
+      "files_sha256": {},
+      "files_dropped": [
+        "agents/openai.yaml"
+      ]
+    },
+    {
+      "claude_skill": "company360-operating-capability",
+      "source_skill": "motif-operating-capability-2026-11-23",
+      "source_version": "2026-11-23",
+      "source_sha256": "8ea10b7575984d8466c0a6ba2d04dd6775e069dd7dfc7a0a56d0fb16ada1b377",
+      "method_sha256": "56571233f7e1627a3da3b62546c99e6e32075358aa5e772b9c13f433163367c0",
+      "converted_sha256": "0c765ee313c83ce4214d890ab9698dcfa00a3bed25d7250a42faea4d0e2ef65f",
+      "generic_lines": 1,
+      "files_carried": [],
+      "files_sha256": {},
+      "files_dropped": [
+        "agents/openai.yaml"
+      ]
+    },
+    {
+      "claude_skill": "company360-unit-economics",
+      "source_skill": "motif-unit-economics-2026-11-23",
+      "source_version": "2026-11-23",
+      "source_sha256": "5a903f3bbfaa6497fb32355768b56acdc99148ab504f3a2849b8bc3ba0f09e46",
+      "method_sha256": "8b6ddb6263567a4fdd8f74426a45c146ca112d8b67c751d6d1dcd079ddcb59f8",
+      "converted_sha256": "a9d8b4b822ae92787403247f26eea9e23f4f37532b8242278570afebf457d026",
+      "generic_lines": 2,
+      "files_carried": [],
+      "files_sha256": {},
+      "files_dropped": [
+        "agents/openai.yaml"
+      ]
+    },
+    {
+      "claude_skill": "company360-decision-synthesis",
+      "source_skill": "motif-decision-synthesis-2026-11-23",
+      "source_version": "2026-11-23",
+      "source_sha256": "5372601713d9347203c3bbddb742fe09f3ac15e166f8800373cb3caeb459f122",
+      "method_sha256": "7854bacb8194691442ca2532cf07c647218f45c2e8c4c5e979643005b4b495e0",
+      "converted_sha256": "a160c740d9e26a553f6bce92de8cabff93160a07449ddd67892d27ebf6e74349",
+      "generic_lines": 2,
+      "files_carried": [],
+      "files_sha256": {},
+      "files_dropped": [
+        "agents/openai.yaml"
+      ]
+    },
+    {
+      "claude_skill": "company360-work-planning",
+      "source_skill": "motif-work-planning-2026-11-23",
+      "source_version": "2026-11-23",
+      "source_sha256": "9e133a91fd796caed17f9c28b2e8d045d9413c0b0f5387f02e77f0ec4da4e454",
+      "method_sha256": "b88334e3024fa552304f3204647c20366f4edd4d932b40cf4a5b3a4d15af9b22",
+      "converted_sha256": "44c1c9789f68ae5a64f41e166dabbb04b4f534b7fecc33ed093c6772f5c3d0a6",
+      "generic_lines": 2,
+      "files_carried": [],
+      "files_sha256": {},
+      "files_dropped": [
+        "agents/openai.yaml"
+      ]
+    },
+    {
+      "claude_skill": "company360-logic-challenge",
+      "source_skill": "motif-logic-challenge-2026-11-23",
+      "source_version": "2026-11-23",
+      "source_sha256": "80f24e51f11d1968c8439d5de408a01a57eee1e8c728a74cace111aed0d091b7",
+      "method_sha256": "eb4c468039f2f58816999e13c54ae3a9e33ead0e483a755978dab4de0c2736f5",
+      "converted_sha256": "d7c2705c208ee0b70b4939fe04c01f03cc2bd8e47aa154e141f79f208d48c08a",
+      "generic_lines": 2,
+      "files_carried": [],
+      "files_sha256": {},
+      "files_dropped": [
+        "agents/openai.yaml"
+      ]
+    },
+    {
+      "claude_skill": "company360-output-evaluation",
+      "source_skill": "motif-output-evaluation-2026-11-23",
+      "source_version": "2026-11-23",
+      "source_sha256": "87f96100c1f04823a1de7cd3919f387ced111338edb539ad57e5df4f7c03592e",
+      "method_sha256": "0b0c22bb2d48c11410b4fdebbd7e09865908755977a5854b415a9d9c64e0afa7",
+      "converted_sha256": "deb0da64b835dbb65804f186194034cf9bb3867823ca06bb855b86e7142daec2",
+      "generic_lines": 5,
+      "files_carried": [
+        "scripts/check_orange.py",
+        "scripts/requirements.txt"
+      ],
+      "files_sha256": {
+        "scripts/check_orange.py": "3fe607c5d65d6193496a0198244c020de52650b59fc4853a275b79b641ae25cd",
+        "scripts/requirements.txt": "bd40eda53e59d385318bc779c4a188e178a2a8dd2be936c5c8821a4fc3d20260"
+      },
+      "files_dropped": [
+        "agents/openai.yaml"
+      ]
+    },
+    {
+      "claude_skill": "company360-weekly-tools-review",
+      "source_skill": "motif-weekly-tools-review-2026-11-23",
+      "source_version": "2026-11-23",
+      "source_sha256": "c1ca1fc2d8ac954c95990d69f78e27d51e6d13f207bd45fa306da6e7e9df6fd6",
+      "method_sha256": "4f44f5c6be9c10ffafd8acaa7125ff929b400d64d9ed69e36217a321ec31dbed",
+      "converted_sha256": "2121f8b8308c366edf5526810eebd826f381c1ab9cb13dd58782e3b4fd429df5",
+      "generic_lines": 1,
+      "files_carried": [],
+      "files_sha256": {},
+      "files_dropped": [
+        "agents/openai.yaml"
+      ]
+    }
+  ],
+  "problems": []
+}

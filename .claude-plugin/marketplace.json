@@ -1,0 +1,16 @@
+{
+  "name": "motif-company-360view",
+  "owner": {
+    "name": "Motif Platforms"
+  },
+  "metadata": {
+    "description": "Motif Platforms skills for conducting 360 research on companies."
+  },
+  "plugins": [
+    {
+      "name": "motif-company-360view",
+      "source": "./",
+      "description": "Motif Platforms' 15 skills for conducting 360 research on companies."
+    }
+  ]
+}
